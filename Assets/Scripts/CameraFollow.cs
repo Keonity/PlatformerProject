@@ -13,12 +13,12 @@ public class CameraFollow : MonoBehaviour
 
     private float cameraHalfWidth;
 
-    public AudioClip backgroundClip;
+    //public AudioClip backgroundClip;
     // Start is called before the first frame update
     void Start()
     {
         cameraHalfWidth = Camera.main.orthographicSize * Camera.main.aspect;
-        AudioSource.PlayClipAtPoint(backgroundClip, transform.position, 0.2f);
+        //AudioSource.PlayClipAtPoint(backgroundClip, transform.position, 0.2f);
     }
 
     // Update is called once per frame
