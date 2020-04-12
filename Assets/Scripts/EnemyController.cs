@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
             if (collision.gameObject.transform.position.y > this.transform.position.y + 0.3)
             {
                 
-                Destroy(this.gameObject, 1f);
+                Destroy(this.gameObject, 0.5f);
                 animator.SetBool("Dead", true);
 
             }
